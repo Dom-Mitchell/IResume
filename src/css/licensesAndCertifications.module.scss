@@ -1,0 +1,131 @@
+.licenses-And-Certifications {
+  // background-color: #fff;
+  padding: 0.5rem;
+  margin-top: 10px;
+  // border-bottom: 1px solid #ccc;
+  margin-left: 50px;
+  margin-right: 50px;
+  // border: 3px solid red;
+  // border-radius: 10px;
+}
+
+.title {
+  font-family: 'Sora', sans-serif;
+  font-size: 35px;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+  padding: 5px;
+  margin: 0;
+}
+
+.title:hover {
+  color: #f7f7f7;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bullets {
+  padding: 5px 5px 5px 40px;
+  margin: 0;
+  list-style: none;
+}
+
+.navy::before {
+  content: url('../images/certs/US-Navy.svg');
+  transform: translate(-385px, -340px) scale(0.055);
+  position: absolute;
+}
+
+.nuCamp::before {
+  content: url('../images/certs/NuCamp.svg');
+  transform: translate(-225px, -180px) scale(0.105);
+  position: absolute;
+}
+
+.coursera::before {
+  content: url('../images/certs/Coursera.svg');
+  transform: translate(-225px, -180px) scale(0.095);
+  position: absolute;
+}
+
+.bullet {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 5px;
+}
+
+.bullets-nested {
+  padding: 5px 5px 5px 40px;
+  margin-top: 5px;
+  list-style: none;
+  // margin: 0;
+}
+
+.navy-expire::before {
+  content: url('../images/certs/Circular-Arrow.svg');
+  transform: translate(-30px, 0px) scale(1.5);
+  position: absolute;
+}
+
+.bullet-nested {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 5px;
+}
+
+.bullet-nested:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgba(68, 0, 255, 0.68);
+}
+
+.link-title {
+  color: black;
+  text-decoration: none;
+}
+
+.link-title:hover em {
+  font-style: normal;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #00b7ff;
+}
+
+.link-title:hover {
+  font-style: normal;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #00b7ff;
+}
+
+.link-title::after {
+  content: '\2212';
+  display: inline-block;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 8px;
+  color: black;
+}
+
+.links {
+  color: black;
+  text-decoration: none;
+}
+
+.links:hover em {
+  font-style: normal;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #00b7ff;
+}
+
+.links:hover {
+  font-style: normal;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #00b7ff;
+}

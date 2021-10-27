@@ -37,6 +37,41 @@
   --bg-primary: #23232e;
   --bg-secondary: #141418;
   --transition-speed: 600ms;
+  // Resume Colors
+  --resume-bg: #23232e;
+  --resume-text: #ececec;
+  --resume-link: #00b7ff;
+  --resume-link-hover: #1857a4;
+  --resume-link-active: #1857a4;
+  --resume-link-visited: #1857a4;
+  --resume-link-focus: #1857a4;
+  --resume-link-active-hover: #1857a4;
+  --resume-link-active-visited: #1857a4;
+  --resume-link-active-focus: #1857a4;
+  --resume-link-visited-hover: #1857a4;
+  --resume-link-visited-visited: #1857a4;
+  --resume-link-visited-focus: #1857a4;
+  --resume-link-focus-hover: #1857a4;
+  --resume-link-focus-visited: #1857a4;
+  --resume-link-focus-focus: #1857a4;
+  --resume-link-active-hover-hover: #1857a4;
+  --resume-link-active-hover-visited: #1857a4;
+  --resume-link-active-hover-focus: #1857a4;
+  --resume-link-active-visited-hover: #1857a4;
+  --resume-link-active-visited-visited: #1857a4;
+  --resume-link-active-visited-focus: #1857a4;
+  --resume-link-active-focus-hover: #1857a4;
+  --resume-link-active-focus-visited: #1857a4;
+  --resume-link-active-focus-focus: #1857a4;
+  --resume-link-visited-hover-hover: #1857a4;
+  --resume-link-visited-hover-visited: #1857a4;
+  --resume-link-visited-hover-focus: #1857a4;
+  --resume-link-visited-visited-hover: #1857a4;
+  // Custom Colors
+  --custom-bg: #23232e;
+  --custom-text: #ececec;
+  // Custom Resume Colors
+  --custom-resume-bg: #5e5e5e3f;
 }
 
 html {
@@ -46,28 +81,9 @@ html {
 body {
   margin: 0;
   /* min-height: 100%; */
-  background-color: var(--pale-green);
+  background-color: var(--custom-resume-bg);
 }
 
-footer img {
-  width: 50px;
-  height: 50px;
-}
-
-footer {
-  text-align: center;
-  padding: 3px 3px 0px 3px;
-  /* padding-top: 3px; */
-  /* padding-left: 3px; */
-  /* padding-right: 3px; */
-  /* padding-bottom: none; */
-  background-color: var(--slate);
+a {
   color: black;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  /* width: 100%; */
-  /* color: #fff; */
 }

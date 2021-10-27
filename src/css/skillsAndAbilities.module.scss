@@ -1,0 +1,224 @@
+.skills-And-Abilities {
+  // background-color: #fff;
+  padding: 0.5rem;
+  margin-top: 10px;
+  // border-bottom: 1px solid #ccc;
+  margin-left: 50px;
+  margin-right: 50px;
+  // border: 3px solid red;
+  // border-radius: 10px;
+}
+
+.title {
+  font-family: 'Sora', sans-serif;
+  font-size: 35px;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+  padding: 5px;
+  margin: 0;
+}
+
+.title:hover {
+  color: #f7f7f7;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@counter-style languages-list {
+  system: fixed;
+  symbols: url('../images/languages/Typescript.svg')
+    url('../images/languages/HTML5.svg')
+    url('../images/languages/Javascript.svg')
+    url('../images/languages/CSS3.svg') url('../images/languages/Sass-SCSS.svg')
+    url('../images/languages/PostgreSQL.svg')
+    url('../images/languages/.NET.svg') url('../images/languages/C-sharp.svg')
+    url('../images/languages/Markdown.svg') url('../images/languages/Git.svg')
+    url('../images/languages/Github.svg') url('../images/languages/VS-Code.svg')
+    url('../images/languages/Laptop.svg') url('../images/languages/BlueJ.svg')
+    url('../images/languages/Java.svg') url('../images/languages/Python.svg');
+  suffix: ' ';
+}
+
+.bullets {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 20px 0px;
+  grid-template-areas:
+    '. . . .'
+    '. . . .'
+    '. . . .'
+    '. . . .';
+  padding: 15px 5px 5px 40px;
+  margin: 0;
+  // list-style: languages-list;
+  list-style-type: none;
+}
+
+.bullet {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 5px;
+}
+
+// .bullets {
+//   display: flex;
+// }
+
+// .bullet {
+//   font-family: 'Roboto Slab', serif;
+//   font-size: 20px;
+//   margin: 0;
+//   padding: 5px;
+// }
+
+// .skills {
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+
+// .skills a {
+//   color: black;
+//   text-decoration: none;
+// }
+
+.bullet a {
+  color: black;
+  text-decoration: none;
+}
+
+.bullet a:hover {
+  font-style: normal;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #00b7ff;
+}
+
+.typeScript::before {
+  content: url('../images/languages/Typescript.svg');
+  transform: translate(-150px, -120px) scale(0.125);
+  position: absolute;
+}
+
+.html::before {
+  content: url('../images/languages/HTML5.svg');
+  transform: translate(-150px, -175px) scale(0.125);
+  position: absolute;
+}
+
+.javaScript::before {
+  content: url('../images/languages/Javascript.svg');
+  transform: translate(-150px, -120px) scale(0.125);
+  position: absolute;
+}
+
+.cssLang::before {
+  content: url('../images/languages/CSS3.svg');
+  transform: translate(-150px, -175px) scale(0.125);
+  position: absolute;
+}
+
+.scssLang::before {
+  content: url('../images/languages/Sass-SCSS.svg');
+  transform: translate(-150px, -90px) scale(0.145);
+  position: absolute;
+}
+
+.postgreSQL::before {
+  content: url('../images/languages/PostgreSQL.svg');
+  transform: translate(-310px, -285px) scale(0.065);
+  position: absolute;
+}
+
+.dotNet::before {
+  content: url('../images/languages/.NET.svg');
+  transform: translate(-150px, -115px) scale(0.125);
+  position: absolute;
+}
+
+.cSharp::before {
+  content: url('../images/languages/C-sharp.svg');
+  transform: translate(-240px, -235px) scale(0.075);
+  position: absolute;
+}
+
+.markdown::before {
+  content: url('../images/languages/Markdown.svg');
+  transform: translate(-150px, -70px) scale(0.125);
+  position: absolute;
+}
+
+.git::before {
+  content: url('../images/languages/Git.svg');
+  transform: translate(-150px, -120px) scale(0.125);
+  position: absolute;
+}
+
+.gitHub::before {
+  content: url('../images/languages/Github.svg');
+  transform: translate(-150px, -120px) scale(0.125);
+  position: absolute;
+}
+
+.vsCode::before {
+  content: url('../images/languages/VSCode.svg');
+  transform: translate(-175px, -140px) scale(0.125);
+  position: absolute;
+}
+
+.computerNetwork::before {
+  content: url('../images/languages/Laptop.svg');
+  transform: translate(-67px, -40px) scale(0.455);
+  position: absolute;
+}
+
+.blueJ::before {
+  content: url('../images/languages/BlueJ.svg');
+  transform: translate(-425px, -300px) scale(0.055);
+  position: absolute;
+}
+
+.javaLang::before {
+  content: url('../images/languages/Java.svg');
+  transform: translate(-150px, -170px) scale(0.125);
+  position: absolute;
+}
+
+.pythonLang::before {
+  content: url('../images/languages/Python.svg');
+  transform: translate(-150px, -120px) scale(0.125);
+  position: absolute;
+}
+
+// .bullet::after {
+//   content: '\2212';
+//   font-style: normal;
+//   font-size: 20px;
+//   padding: 8px;
+//   color: black;
+// }
+
+.oneYear::after {
+  content: '1';
+  font-style: normal;
+  font-size: 20px;
+  padding: 8px;
+  color: black;
+}
+
+.twoYears::after {
+  content: '2';
+  font-style: normal;
+  font-size: 20px;
+  padding: 8px;
+  color: black;
+}
+
+.threePlusYears::after {
+  content: '3+';
+  font-style: normal;
+  font-size: 20px;
+  padding: 8px;
+  color: black;
+}

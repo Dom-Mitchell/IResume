@@ -1,0 +1,121 @@
+.awards {
+  // background-color: #fff;
+  padding: 0.5rem;
+  margin-top: 10px;
+  // border-bottom: 1px solid #ccc;
+  margin-left: 50px;
+  margin-right: 50px;
+  // border: 3px solid red;
+  // border-radius: 10px;
+}
+
+.title {
+  font-family: 'Sora', sans-serif;
+  font-size: 35px;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+  padding: 5px;
+  margin: 0;
+}
+
+.title:hover {
+  color: #f7f7f7;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.awards-container {
+  display: flex;
+  // flex-wrap: wrap;
+  // display: inline-block;
+}
+
+.awards-container a {
+  color: black;
+  text-decoration: none;
+}
+
+.award-title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 5px;
+  letter-spacing: 3px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.award-title:hover {
+  font-style: normal;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #00b7ff;
+}
+
+.award-title::after {
+  content: '\2212';
+  display: inline-block;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 8px;
+  color: black;
+}
+
+.award-company {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 5px;
+  letter-spacing: 3px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.award-company:hover {
+  font-style: normal;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #00b7ff;
+}
+
+.award-company::after {
+  content: '\2212';
+  display: inline-block;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 8px;
+  color: black;
+}
+
+.award-dates {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 5px;
+  letter-spacing: 3px;
+  font-weight: normal;
+  transform: translateY(5px);
+  // text-transform: uppercase;
+}
+
+.award-dates:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgba(68, 0, 255, 0.68);
+}
+
+.award-details {
+  padding: 5px 5px 5px 40px;
+  margin: 0;
+  // list-style: none;
+}
+
+.award-detail {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 5px;
+}
