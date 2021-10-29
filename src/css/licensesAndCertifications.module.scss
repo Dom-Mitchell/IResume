@@ -129,3 +129,80 @@
   cursor: pointer;
   color: #00b7ff;
 }
+
+@media print {
+  .title {
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .title:hover {
+    font-size: 35px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .bullets {
+    padding: 5px 5px 5px 35px;
+    margin: 0;
+    list-style: disc;
+  }
+
+  .bullet {
+    font-size: 15px;
+  }
+
+  .bullet-nested {
+    font-size: 15px;
+  }
+
+  .bullet-nested:hover {
+    color: black;
+    text-decoration: none;
+  }
+
+  .navy::before,
+  .nuCamp::before,
+  .coursera::before {
+    display: none;
+  }
+
+  .navy-expire::before {
+    filter: grayscale(100%) opacity(0.7);
+  }
+
+  .link-title {
+    color: black;
+    text-decoration: none;
+  }
+
+  .link-title:hover {
+    color: black;
+    text-decoration: none;
+  }
+
+  .link-title:hover em {
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+  }
+
+  .links {
+    color: black;
+    text-decoration: none;
+  }
+
+  .links:hover em {
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+  }
+
+  .links:hover {
+    color: black;
+    text-decoration: none;
+  }
+}

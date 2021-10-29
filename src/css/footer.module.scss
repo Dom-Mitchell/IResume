@@ -11,3 +11,9 @@
   left: 0;
   right: 0;
 }
+
+@media print {
+  .footer {
+    display: none;
+  }
+}

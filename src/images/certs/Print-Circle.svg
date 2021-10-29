@@ -4,12 +4,12 @@
   <style type="text/css">
     @media print {
       .st0 {
-        fill: #000000;
+        fill: #ff0000;
       }
     }
 
     .st0 {
-      fill: #ff0000;
+      fill: #000000;
     }
   </style>
   <path class="st0"

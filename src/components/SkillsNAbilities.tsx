@@ -6,6 +6,9 @@ export function SkillsNAbilities() {
   return (
     <section className={SkillsAndAbilities['skills-And-Abilities']}>
       <h2 className={SkillsAndAbilities.title}>Skills &#38; Abilities</h2>
+      <p className={SkillsAndAbilities.note}>
+        Note: Numbers represent years used per skill.
+      </p>
       <ul className={SkillsAndAbilities.bullets}>
         <li
           className={`${SkillsAndAbilities.bullet} ${SkillsAndAbilities.typeScript} ${SkillsAndAbilities.oneYear}`}

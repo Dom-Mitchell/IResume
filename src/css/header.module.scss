@@ -196,3 +196,65 @@
 //   color: black;
 // }
 
+@media print {
+  .name {
+    font-size: 45px;
+    letter-spacing: 3px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .name:hover {
+    font-size: 45px;
+    letter-spacing: 3px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .address::before,
+  .phone::before,
+  .email::before,
+  .github::before,
+  .linkedIn::before {
+    display: none;
+  }
+
+  .address,
+  .phone,
+  .email,
+  .github,
+  .linkedIn {
+    margin-left: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .address:hover,
+  .phone:hover,
+  .email:hover,
+  .github:hover,
+  .linkedIn:hover {
+    margin-left: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .address:hover {
+    font-style: italic;
+  }
+
+  .address::after,
+  .phone::after,
+  .email::after,
+  .github::after,
+  .linkedIn::after {
+    font-size: 22px;
+    padding: 8px;
+  }
+}

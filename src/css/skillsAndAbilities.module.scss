@@ -24,20 +24,20 @@
   cursor: pointer;
 }
 
-@counter-style languages-list {
-  system: fixed;
-  symbols: url('../images/languages/Typescript.svg')
-    url('../images/languages/HTML5.svg')
-    url('../images/languages/Javascript.svg')
-    url('../images/languages/CSS3.svg') url('../images/languages/Sass-SCSS.svg')
-    url('../images/languages/PostgreSQL.svg')
-    url('../images/languages/.NET.svg') url('../images/languages/C-sharp.svg')
-    url('../images/languages/Markdown.svg') url('../images/languages/Git.svg')
-    url('../images/languages/Github.svg') url('../images/languages/VS-Code.svg')
-    url('../images/languages/Laptop.svg') url('../images/languages/BlueJ.svg')
-    url('../images/languages/Java.svg') url('../images/languages/Python.svg');
-  suffix: ' ';
-}
+// @counter-style languages-list {
+//   system: fixed;
+//   symbols: url('../images/languages/Typescript.svg')
+//     url('../images/languages/HTML5.svg')
+//     url('../images/languages/Javascript.svg')
+//     url('../images/languages/CSS3.svg') url('../images/languages/Sass-SCSS.svg')
+//     url('../images/languages/PostgreSQL.svg')
+//     url('../images/languages/.NET.svg') url('../images/languages/C-sharp.svg')
+//     url('../images/languages/Markdown.svg') url('../images/languages/Git.svg')
+//     url('../images/languages/Github.svg') url('../images/languages/VS-Code.svg')
+//     url('../images/languages/Laptop.svg') url('../images/languages/BlueJ.svg')
+//     url('../images/languages/Java.svg') url('../images/languages/Python.svg');
+//   suffix: ' ';
+// }
 
 .bullets {
   display: grid;
@@ -221,4 +221,85 @@
   font-size: 20px;
   padding: 8px;
   color: black;
+}
+
+.note::before {
+  content: url('../images/certs/Circular-Arrow.svg');
+  transform: translate(-30px, 0px) scale(1.5);
+  position: absolute;
+}
+
+.note {
+  display: none;
+  padding: 5px 5px 5px 55px;
+  font-size: 15px;
+  font-family: 'Roboto Slab', serif;
+}
+
+@media print {
+  .title {
+    color: black;
+    text-decoration: none;
+  }
+
+  .title:hover {
+    color: black;
+    text-decoration: none;
+  }
+
+  .bullets {
+    list-style-type: disc;
+    gap: 0px;
+    // padding: 5px;
+    padding: 5px 5px 5px 35px;
+  }
+
+  .bullet {
+    font-size: 15px;
+  }
+
+  .bullet a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .bullet a:hover {
+    color: black;
+    text-decoration: none;
+  }
+
+  .typeScript::before,
+  .html::before,
+  .javaScript::before,
+  .cssLang::before,
+  .scssLang::before,
+  .postgreSQL::before,
+  .dotNet::before,
+  .cSharp::before,
+  .markdown::before,
+  .git::before,
+  .gitHub::before,
+  .vsCode::before,
+  .computerNetwork::before,
+  .blueJ::before,
+  .javaLang::before,
+  .pythonLang::before {
+    display: none;
+  }
+
+  .oneYear::after,
+  .twoYears::after,
+  .threePlusYears::after {
+    font-size: 15px;
+  }
+
+  .note::before {
+    filter: grayscale(100%) opacity(0.7);
+  }
+
+  .note {
+    display: block;
+    padding: 5px 5px 5px 55px;
+    font-size: 15px;
+  }
 }
