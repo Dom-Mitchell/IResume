@@ -32,6 +32,12 @@
 }
 
 @media print {
+  .objective {
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
   .title {
     font-size: 35px;
     letter-spacing: 3px;

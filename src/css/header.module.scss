@@ -197,6 +197,11 @@
 // }
 
 @media print {
+  .header {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
   .name {
     font-size: 45px;
     letter-spacing: 3px;

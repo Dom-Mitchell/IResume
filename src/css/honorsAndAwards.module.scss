@@ -119,3 +119,36 @@
   margin: 0;
   padding: 5px;
 }
+
+@media print {
+  .title {
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .title:hover {
+    font-size: 35px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .award-title,
+  .award-company,
+  .award-dates {
+    font-size: 15px;
+  }
+
+  .award-title:hover,
+  .award-company:hover,
+  .award-dates:hover {
+    text-decoration: none;
+    color: black;
+  }
+
+  .award-details {
+    font-size: 15px;
+  }
+}

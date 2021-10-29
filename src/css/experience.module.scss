@@ -134,6 +134,25 @@
   color: rgba(68, 0, 255, 0.68);
 }
 
+.job-dates-short {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 5px;
+  letter-spacing: 3px;
+  font-weight: normal;
+  transform: translateY(5px);
+  // text-transform: uppercase;
+  display: none;
+}
+
+.job-dates-short:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgba(68, 0, 255, 0.68);
+}
+
 .job-details {
   padding: 5px 5px 5px 40px;
   margin: 0;
@@ -148,8 +167,76 @@
 }
 
 @media print {
-  .footer {
+  .experience {
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .title {
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .title:hover {
+    text-decoration: none;
+    color: black;
+  }
+
+  // .job-title {
+  //   // content: 'Information Systems Tech';
+  //   // display: none;
+  // }
+
+  .job-dates {
     display: none;
   }
-}
 
+  .job-dates-short {
+    display: block;
+  }
+
+  .job-title,
+  .job-acronym,
+  .job-company,
+  .job-dates-short {
+    font-size: 12px;
+    color: black;
+    // text-transform: capitalize;
+  }
+
+  // .job-dates {
+  //   content: '\007C';
+  // }
+
+  .job-title::after,
+  .job-acronym::after,
+  .job-company::after,
+  .job-dates::after {
+    font-size: 22px;
+    color: black;
+  }
+
+  .job-title:hover,
+  .job-acronym:hover,
+  .job-company:hover,
+  .job-dates:hover {
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+  }
+
+  .job-details {
+    padding: 5px 5px 5px 40px;
+    margin: 0;
+    // list-style: none;
+  }
+
+  .job-detail {
+    font-size: 15px;
+    margin: 0;
+    padding: 5px;
+  }
+}

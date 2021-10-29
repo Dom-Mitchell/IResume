@@ -17,6 +17,7 @@ export function Experience() {
           <p className={Work['job-company']}>US Navy</p>
         </a>
         <p className={Work['job-dates']}>September 2019 to May 2021</p>
+        <p className={Work['job-dates-short']}>2019 to 2021</p>
       </div>
       <ul className={Work['job-details']}>
         <li className={Work['job-detail']}>
